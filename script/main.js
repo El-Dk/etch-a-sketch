@@ -2,8 +2,8 @@ const completeGrid = document.querySelector('#completeGrid');
 const colorInput = document.querySelector('#colorInput');
 const sizeLabel = document.querySelector('#sizeLabel');
 const sizeInput = document.querySelector('#sizeInput');
-const resetBtn = document.querySelector('#resetBtn');
-const GRIDSIZE = 30;
+const clearBtn = document.querySelector('#clearBtn');
+const GRIDSIZE = 23;
 
 let colorChosen = colorInput.value;
 
@@ -11,7 +11,7 @@ colorInput.addEventListener('change', () => {
     colorChosen = colorInput.value;
 });
 
-resetBtn.addEventListener('click', reset);
+clearBtn.addEventListener('click', clear);
 
 function createGrid(size){
     completeGrid.style.gridTemplateColumns = `repeat(${size}, ${GRIDSIZE / size}rem)`;
@@ -45,7 +45,7 @@ function paintSquare(elem){
     }
 }
 
-function reset(){
+function clear(){
     completeGrid.innerHTML = "";
     createGrid(Number(sizeInput.value));
 }

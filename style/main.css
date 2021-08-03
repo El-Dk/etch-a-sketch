@@ -2,15 +2,114 @@ html{
     font-size: 20px;
 }
 body{
-    background-color: green;
+    background-color: #8db580;
+}
+label{
+    font-weight: 600;
+    font-style: italic;
+}
+#header{
+    background-color: #8f3bde;
+    top: 0;
+    height: 5rem;
+    width: 120vw;
+    margin: -2rem -10vw auto -10vw;
+    padding-top: 1.8rem;
+    padding-bottom: 0.9rem;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem;
+}
+main{
+    margin-top: 1.5rem;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    padding-top: 0.5rem;
+    padding-bottom: 6rem;
+    color: #1C3144;
+}
+#setup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 5rem;
+    background-color: #fa9f42;
+    border: 0.1rem solid black;
+    width: 11rem;
+}
+#colorPicker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#colorPicker label{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+#colorInput{
+    margin-left: auto;
+    margin-right: auto;
+    width: 4rem;
+    height: 4rem;
+}
+#sizeDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sizeDiv label{
+    font-size: 1.1rem;
+}
+#sizeLabel{
+    margin-top: 0.5rem;
+    font-size: 0.95rem !important;
+}
+#clearBtn{
+    width: 4rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    border-radius: 0%;
+    color: #1C3144;
+}
+#clearBtn:hover{
+    background-color: #000000;
+    color: #ffffff;
 }
 #completeGrid{
     display: grid;
     grid-auto-flow: column;
-    height: 30rem;
-    width: 30rem;
+    height: 23rem;
+    width: 23rem;
     background-color: #ffffff;
+    border: 1rem solid black;
 }
 .square{
     background-color: #ffffff;
+}
+#footer{
+    width: 120vw;
+    height: 5rem;
+    bottom: 0;
+    display: flex;
+    position: fixed;
+    margin-left: -10vw;
+    margin-right: -10vw;
+    padding: 1rem auto 10rem auto;
+    background-color: #8f3bde;
+    justify-content: center;
+}
+#footer a{
+    margin: 1rem auto 1rem auto;
+}
+#footer img{
+    height: 3rem;
 }
