@@ -7,8 +7,8 @@ body{
 #completeGrid{
     display: grid;
     grid-auto-flow: column;
-    height: 25rem;
-    width: 25rem;
+    height: 28rem;
+    width: 28rem;
 }
 .square:hover{
     background-color: yellow;
