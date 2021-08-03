@@ -9,8 +9,8 @@ body{
     grid-auto-flow: column;
     height: 28rem;
     width: 28rem;
+    background-color: #ffffff;
 }
-.square:hover{
-    background-color: yellow;
-
+.square{
+    background-color: #ffffff;
 }
