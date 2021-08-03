@@ -7,8 +7,8 @@ body{
 #completeGrid{
     display: grid;
     grid-auto-flow: column;
-    height: 28rem;
-    width: 28rem;
+    height: 30rem;
+    width: 30rem;
     background-color: #ffffff;
 }
 .square{
