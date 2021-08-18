@@ -3,4 +3,6 @@ Project: Etch-a-Sketch
 This projecto is goingo to show a browser version of an hybrid between a sketchpad
 and an Etch-A-Sketch
 
-It'll be built using html, css and javascript 
+It'll be built using html, css and javascript
+
+LIVE VIEW:  https://el-dk.github.io/etch-a-sketch/
